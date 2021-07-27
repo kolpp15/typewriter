@@ -10,4 +10,4 @@ for (const char of sentence) {
 
 setTimeout(() => {
   process.stdout.write('\n');
-}, interval);
+}, interval + 1000);
